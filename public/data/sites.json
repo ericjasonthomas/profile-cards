@@ -1,0 +1,182 @@
+[
+	{
+		"section": "Section One 😉",
+		"description": "The first section of cards",
+		"sites": [
+			{
+				"title": "Hello World !",
+				"profileClass": "firstclass",
+				"profileColor": "",
+				"logoIMG" : "data/logos/github-logo.png",
+				"descriptionType" : "bullet",
+				"description": [
+					{
+						"item": "The first card in the series 🇺🇸"
+					},
+					{
+						"item": "bullet list "
+					},
+					{
+						"item": "bullet list"
+					},
+					{
+						"item": "bullet list"
+					},
+					{
+						"item": "bullet list"
+					}
+				]
+			},
+			{
+				"title": "Super Cool Site",
+				"profileClass": "secondclass",
+				"profileColor": "",
+				"logoIMG": "data/logos/react.svg",
+				"descriptionType" : "text",
+				"description": [
+					{
+						"item": "The text doesn't need to be a bullet. You can write the description without bullets. testing all this stuff. 🍩"
+					}
+				]
+			},
+			{
+				"title": "Another One",
+				"profileClass": "secondclass",
+				"profileColor": "",
+				"logoIMG": "data/logos/BTrI11y.png",
+				"descriptionType" : "bullet",
+				"description": [
+					{
+						"item": "Bootstrap 3 in scss"
+					},
+					{
+						"item": "Responsive Design ✨"
+					},
+					{
+						"item": "JSON data "
+					}
+				]
+			},
+			{
+				"title": "And Another One",
+				"profileClass": "secondclass",
+				"profileColor": "",
+				"logoIMG": "data/logos/drupal 8 logo inline CMYK 72.png",
+				"descriptionType" : "text",
+				"description": [
+					{
+						"item": "Just some text 🚣 Text 💩 💨"
+					},
+					{
+						"item": "👷 Responsive Design ✨ Some more text 🐢"
+					}
+				]
+			},
+			{
+				"title": "Other Site",
+				"profileClass": "secondclass",
+				"profileColor": "#04cba9",
+				"logoIMG": "data/logos/sass.svg",
+				"descriptionType" : "bullet",
+				"description": [
+					{
+						"item": "Example of overriding primary color 🙈"
+					},
+					{
+						"item": "bullet list 🙉"
+					},
+					{
+						"item": "On a card 🙊"
+					}
+				]
+			}
+		]
+	},
+	{
+	"section": "Section Two 😺",
+	"description": "The second section",
+	"sites": [
+		{
+			"title": "The Card",
+			"profileClass": "firstclass",
+			"profileColor": "#cc3300",
+			"logoIMG": "data/logos/symfony_black_02.png",
+			"descriptionType" : "bullet",
+			"description": [
+				{
+					"item": "One 🙌"
+				},
+				{
+					"item": "Two 🙏"
+				},
+				{
+					"item": "One 🙌"
+				},
+				{
+					"item": "Two 🙏"
+				}
+			]
+		},
+		{
+			"title": "The Card",
+			"profileClass": "firstclass",
+			"profileColor": "#cc3300",
+			"logoIMG": "data/logos/travis-ci-monochrome.svg",
+			"descriptionType" : "bullet",
+			"description": [
+				{
+					"item": "One 👌"
+				},
+				{
+					"item": "Two 👈"
+				},
+				{
+					"item": "One 👍"
+				},
+				{
+					"item": "Two 👏"
+				}
+			]
+		},
+		{
+			"title": "The Third",
+			"profileClass": "firstclass",
+			"profileColor": "#0000FF",
+			"logoIMG": "data/logos/symfony_black_02.png",
+			"descriptionType" : "bullet",
+			"description": [
+				{
+					"item": "One 🙌"
+				},
+				{
+					"item": "Two 🙏"
+				},
+				{
+					"item": "One 🙌"
+				},
+				{
+					"item": "Two 🙏"
+				}
+			]
+		},
+		{
+			"title": "oh yeah",
+			"profileClass": "",
+			"profileColor": "",
+			"logoIMG": "data/logos/Octocat.png",
+			"descriptionType" : "bullet",
+			"description": [
+				{
+					"item": "Is there anybody"
+				},
+				{
+					"item": "anybody"
+				},
+				{
+					"item": "out there ?"
+				}
+			]
+		}
+		]
+	}
+]

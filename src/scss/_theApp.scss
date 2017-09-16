@@ -1,0 +1,48 @@
+.theApp {
+  text-align:left;
+}
+h2 {
+	color:#999;
+	font-weight: normal;
+	font-family: 'Oswald-Regular', 'Oswald';
+	font-size: 1.7142857142857142em;
+	line-height: 1.7142857142857142em;
+}
+.intro-txt {
+	color:#666666;
+	p {
+		 font-size:1.2857142857142858em;
+	}
+}
+.sitesContainer {
+	// border: 1px solid #ccc;
+}
+
+.siteGroup {
+	// border: 1px solid #ccc;
+	width: 100%;
+	display: inline-block;
+	text-align: left;
+	h2{
+		font-family: 'Oswald-Regular', 'Oswald';
+		color:#999;
+		font-weight: normal;
+	}
+}
+.sitesContainer {
+
+}
+.sectionTitle {
+	display: block;
+	border-bottom: 1px solid #ccc;
+}
+/* -- Panel overrides -- */
+
+.ms-Panel-commands {
+	background-color: #ccc;
+	display: block;
+	height: 100px;
+}
+.ms-Panel-contentinner {
+	position: relative;
+}

@@ -1,0 +1,128 @@
+.siteCardholder {
+	text-align: center;
+	//border: 1px dashed #e541b5;
+	padding:10px;
+	@media (max-width: 550px) {
+			width: 100%;
+	}
+}
+.siteCard:link, .siteCard:active {
+	outline:none;
+	// box-shadow: 4px -4px 12px rgba(0,0,0,0.20), 2px 2px 3px rgba(0,0,0,0.01);
+}
+.siteCard:focus {
+	outline:none;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.siteCard:hover {
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.siteCard {
+	display:inline-block;
+	background: #fff;
+	outline:none;
+	box-shadow: 4px -4px 12px rgba(0,0,0,0.20), 2px 2px 3px rgba(0,0,0,0.01);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+	margin: 0 auto;
+	cursor: pointer;
+	min-height:220px;
+	width:220px;
+	text-align: left;
+
+	@media screen and (max-width: 550px) {
+			width: 240px;
+			min-height:240px;
+		.cardContent {
+	 font-size: 0.875em !important;
+	 line-height: 1.8;
+ }
+	}
+	@media (min-width: $screen-sm-min) {
+			width: 220px;
+			min-height:220px;
+		.cardContent {
+		font-size: 0.7857142857142857em;
+		line-height: 1.7;
+	}
+	}
+	@media (min-width: $screen-md-min) {
+			width: 220px;
+			min-height:220px;
+		.cardContent {
+			font-size: 0.7857142857142857em;
+			line-height: 1.7;
+		}
+	}
+	@media screen and (min-width: $screen-lg-min) {
+			width: 240px;
+			min-height:240px;
+		.cardContent {
+		 font-size: 0.875em !important;
+		 line-height: 1.8;
+	 }
+
+	}
+	/* -- Card Top -- */
+	.cardtop {
+		height: 54px;
+
+		.primarycolor {
+			background-color: #ccc;
+			height: 40px;
+		}
+		.logoholder {
+			height: 40px;
+			display: inline-block;
+			padding-top: 12px;
+			padding-left: 6px;
+			position: relative;
+			float: left;
+		}
+		.plusIcon {
+			float: right;
+			width: 32px;
+			margin-top: 6px;
+			font-size: 2.25em;
+			color: #fff;
+			font-weight: bold;
+		}
+		.logo {
+			padding:4px;
+			background-color: #fff;
+			box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
+			img {
+				height: 32px;
+			}
+		}
+	}
+	/* -- End Card Top -- */
+	.siteTitle {
+		font-family: 'Oswald-Regular', 'Oswald';
+		font-size: 1.4285714285714286em;
+		color:#666666;
+		border-bottom: 1px solid #ccc;
+	}
+	.cardContent {
+		padding: 6px;
+	//	border: 1px dotted #50e8bd;
+		color:#999999;
+
+	// --- end Font change --- //
+		ul {
+			 padding-left: 0em;
+			 list-style: none;
+			 	li:before {
+				  content: "•";
+				  position: absolute;
+				  left: 0;
+				}
+			li {
+				position: relative;
+  			padding-left: 6px;
+			}
+		}
+	}
+	.descriptionList {
+		margin-top: 8px;
+	}
+}
