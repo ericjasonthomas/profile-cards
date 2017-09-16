@@ -33,7 +33,7 @@ textType () {
   render() {
 		let cardTopStyle = { background: this.props.profileColor }
 		return (
-			<div className="siteCardholder col-md-3 col-sm-4 col-xs-6">
+			<div className="siteCardholder col-md-3 col-sm-4 col-xs-6 col-lg-5ths">
 	      <div className={"siteCard " + this.props.profileClass} onClick={this.onChangesite.bind(this)} onKeyPress={this.onChangesite.bind(this)} tabIndex = {0} role="button">
 						<div className="cardtop">
 							<div className="primarycolor" style={cardTopStyle}>
