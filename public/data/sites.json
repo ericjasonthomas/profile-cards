@@ -6,7 +6,7 @@
 			{
 				"title": "Hello World !",
 				"profileClass": "firstclass",
-				"profileColor": "",
+				"profileColor": "#884EA0",
 				"logoIMG" : "data/logos/github-logo.png",
 				"descriptionType" : "bullet",
 				"description": [
@@ -42,7 +42,7 @@
 			{
 				"title": "Another One",
 				"profileClass": "secondclass",
-				"profileColor": "",
+				"profileColor": "#196F3D",
 				"logoIMG": "data/logos/BTrI11y.png",
 				"descriptionType" : "bullet",
 				"description": [
