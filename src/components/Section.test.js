@@ -19,5 +19,4 @@ import SiteCard from './SiteCard';
 // })
 
 import { mount } from 'enzyme';
-
 const wrapper = mount(<SiteCard/>);
