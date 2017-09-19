@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import SiteSelection from './components/SiteSelection';
+import Section from './components/Section';
 import $ from 'jquery'
 
 class Theapp extends Component {
@@ -36,9 +36,10 @@ getdata(){
     return (
       <div className="theApp container-fluid">
 				<div className="intro-txt">
-					<p>Welcome! Selection cards with data from JSON. Fun stuff </p>
+					<p>Welcome! S
+					ection cards with data from JSON. Fun stuff </p>
 				</div>
-				<SiteSelection projectsites={this.state.projectsites}/>
+				<Section projectsites={this.state.projectsites}/>
       </div>
     );
   }

@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import SiteCard from './SiteCard';
 
-class SiteSelection extends Component {
+class Section extends Component {
   constructor() {
     super();
 		this.state = { showPanel: false, selectedSite:'defualt', siteComponent:'defualt' };
@@ -22,7 +22,7 @@ class SiteSelection extends Component {
 						<div className="sectionTitle">
 							<h2>{projectsite.section}</h2>
 						</div>
-            <div class="row-fluid">
+            <div className="row-fluid">
 						{projectsite.sites.map( site => {
 							// console.log(site.profile);
 							return (
@@ -49,4 +49,4 @@ class SiteSelection extends Component {
     );
   }
 }
-export default SiteSelection;
+export default Section;
