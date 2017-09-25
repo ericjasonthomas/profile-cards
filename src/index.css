@@ -5203,6 +5203,16 @@ h2 {
 .ms-Panel-contentinner {
   position: relative; }
 
+/* --- */
+.flexcontainer {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  flex-wrap: wrap;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap; }
+
 .siteCardholder {
   text-align: center;
   padding: 10px; }
