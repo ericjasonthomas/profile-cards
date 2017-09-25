@@ -36,8 +36,7 @@ getdata(){
     return (
       <div className="theApp container-fluid">
 				<div className="intro-txt">
-					<p>Welcome! S
-					ection cards with data from JSON. Fun stuff </p>
+					<p>Welcome! Section cards with data from JSON. Fun stuff </p>
 				</div>
 				<Section projectsites={this.state.projectsites}/>
       </div>

@@ -9,14 +9,14 @@ import SiteCard from './SiteCard';
 //   const div = document.createElement('div');
 //   ReactDOM.render(<Section />, div);
 // });
-
-// describe('<SiteCard/>', () => {
-//   it ('renders without crashing', () => {
-//     const sectioncard = shallow(<SiteCard/>);
-//     expect(sectioncard.find('.descriptionList'));
-//   })
+// import { mount } from 'enzyme';
+// const wrapper = mount(<SiteCard/>);
 //
-// })
-
-import { mount } from 'enzyme';
-const wrapper = mount(<SiteCard/>);
+describe('<SiteCard/>', () => {
+  if (!mountedSiteCard) {
+  mountedSiteCard = mount(
+    <SiteCard/>
+  );
+}
+return mountedSiteCard;
+}

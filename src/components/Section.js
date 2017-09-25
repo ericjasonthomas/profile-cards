@@ -22,7 +22,7 @@ class Section extends Component {
 						<div className="sectionTitle">
 							<h2>{projectsite.section}</h2>
 						</div>
-            <div className="row-fluid">
+            <div className="flexcontainer">
 						{projectsite.sites.map( site => {
 							// console.log(site.profile);
 							return (
