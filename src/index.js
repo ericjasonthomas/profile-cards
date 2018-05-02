@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Theapp from './TheApp';
+import Theapp from './Theapp';
 import $ from 'jquery';
 import registerServiceWorker from './registerServiceWorker';
 

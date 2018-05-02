@@ -1,5 +1,5 @@
 {
-  "name": "bahprovisioning",
+  "name": "cards",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,7 +8,7 @@
     "react-bootstrap": "^0.30.8",
     "react-dom": "^15.6.1",
     "react-redux": "^5.0.6",
-    "react-scripts": "1.0.11"
+    "react-scripts": "^1.0.11"
   },
   "scripts": {
     "start": "react-scripts-with-sass start",
@@ -19,9 +19,10 @@
   "devDependencies": {
     "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
     "create-react-app-sass": "^1.1.0",
-    "react-addons-test-utils": "^15.6.0",
     "enzyme": "^2.9.1",
     "identity-obj-proxy": "^3.0.0",
-    "jest": "^21.1.0"
+    "jest": "^21.1.0",
+    "react-addons-test-utils": "^15.6.0",
+    "redux": "^3.0.0"
   }
 }
